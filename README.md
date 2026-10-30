@@ -64,9 +64,10 @@ Esta entrega valida el entorno y la integración de servicios.
 No incluye entrenamiento de un modelo ni un dataset del caso de uso.
 
 ## Documentación
-- [Memoria](docs/memoria-1.md)
+- [Memoria](docs/memoria-1.pdf)
 - [Evidencias](docs/evidencias/)
 
 ## Fuente del flow de prueba
 El archivo flows/prueba_flow.py fue tomado del material del curso:
 https://github.com/henrycala/santoto-mlops-content/blob/main/actividades/actividad-1/flows/prueba_flow.py
+
