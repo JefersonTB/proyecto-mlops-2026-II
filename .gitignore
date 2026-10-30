@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos locales de MLOps
+.venv/
+mlruns/
+mlflow.db
+mlflow_store/
