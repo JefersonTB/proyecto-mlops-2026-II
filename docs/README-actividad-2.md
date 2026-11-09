@@ -81,7 +81,8 @@ Resultado observado para F-12: score_caida_30d=0,3075698113, prediccion_caida=0,
 
 ## Evidencias y límites
 
-[Memoria 2](memoria-2.docx) y [evidencias](evidencias/actividad-2/). La evaluación final del champion está en `evaluacion_prueba_v1.json`. Para reproducirla: `python -m poetry run python -m flows.evaluacion_prueba`; requiere champion y datos. El registro MLflow y los modelos se generan localmente, no se transfieren mediante los enlaces localhost.
+[Memoria 2](memoria-2.pdf) y [evidencias](evidencias/actividad-2/). La evaluación final del champion está en `evaluacion_prueba_v1.json`. Para reproducirla: `python -m poetry run python -m flows.evaluacion_prueba`; requiere champion y datos. El registro MLflow y los modelos se generan localmente, no se transfieren mediante los enlaces localhost.
 
 Los scripts comparacion_temporal y candidato_individual son exploratorios, no forman parte del deployment principal. No se demostró promoción a una versión 2 mejorada ni reproducción desde clon limpio. La prueba posterior ya fue inspeccionada: los experimentos adicionales no constituyen confirmación independiente. Consultar la memoria para cifras y uso de IA.
+
 

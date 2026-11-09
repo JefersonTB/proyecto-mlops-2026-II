@@ -75,4 +75,5 @@ https://github.com/henrycala/santoto-mlops-content/blob/main/actividades/activid
 ## Actividad 2
 
 - [Guía de ejecución](docs/README-actividad-2.md)
-- [Memoria 2 en Word](docs/memoria-2.docx)
+- [Memoria 2 en PDF](docs/memoria-2.pdf)
+
