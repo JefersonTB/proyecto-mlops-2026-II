@@ -1,5 +1,5 @@
-﻿algoritmo: regresion_logistica
-C: 1.0
+algoritmo: regresion_logistica
+C: 0.01
 max_iter: 2000
 class_weight: balanced
 semilla: 42

@@ -1,0 +1,8 @@
+﻿{
+    "pozo":  "15/9-F-12",
+    "score_caida_30d":  0.2833736533587245,
+    "prediccion_caida":  0,
+    "umbral":  0.5,
+    "modelo":  "volve-pozos-con-historial-30d",
+    "version":  "2"
+}
