@@ -71,3 +71,8 @@ No incluye entrenamiento de un modelo ni un dataset del caso de uso.
 El archivo flows/prueba_flow.py fue tomado del material del curso:
 https://github.com/henrycala/santoto-mlops-content/blob/main/actividades/actividad-1/flows/prueba_flow.py
 
+
+## Actividad 2
+
+- [Guía de ejecución](docs/README-actividad-2.md)
+- [Memoria 2 en Word](docs/memoria-2.docx)

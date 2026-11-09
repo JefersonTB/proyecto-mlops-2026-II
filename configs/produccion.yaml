@@ -1,0 +1,28 @@
+datos:
+  archivo: data/Volve production data.xlsx
+  hoja: Daily Production Data
+  tipo_pozo: OP
+objetivo:
+  historial_dias: 30
+  horizonte_dias: 30
+  caida_relativa: 0.2
+particion:
+  proporcion_entrenamiento: 0.6
+  proporcion_validacion: 0.2
+  separacion_dias: 30
+modelo:
+  nombre: volve-pozos-con-historial-30d
+  experimento: volve-pozos-con-historial
+  auc_minimo: 0.7
+  semilla: 42
+  n_estimators: 200
+  max_depth: 6
+  min_samples_leaf: 10
+  class_weight: balanced
+fechas:
+  inicio_validacion: '2014-06-26'
+  inicio_prueba: '2015-07-23'
+elegibilidad:
+  min_ejemplos: 365
+  min_caidas: 30
+  min_sin_caida: 30

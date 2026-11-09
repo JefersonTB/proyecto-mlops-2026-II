@@ -1,0 +1,13 @@
+{
+  "tendencia_7d_30d": 1.1078912713,
+  "ratio_produccion_mes_anterior": 1.088311509,
+  "variabilidad_relativa": 0.1558410989,
+  "fraccion_ceros_30d": 0.0,
+  "horas_media_30d": 23.643889,
+  "cambio_horas_7d_30d": 0.356111,
+  "corte_agua_30d": 0.6195680945,
+  "cambio_corte_agua_30d": 0.0376487724,
+  "ratio_presion_7d_30d": 0.8151174689,
+  "cambio_choke_7d_30d": 36.3227097222,
+  "pozo": "15/9-F-12"
+}

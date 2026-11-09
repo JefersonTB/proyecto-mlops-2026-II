@@ -1,0 +1,6 @@
+{
+  "codigo": 422,
+  "respuesta": {
+    "detail": "Pozo fuera del alcance del modelo."
+  }
+}

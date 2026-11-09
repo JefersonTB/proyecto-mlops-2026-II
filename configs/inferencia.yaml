@@ -1,0 +1,4 @@
+﻿fecha_corte: "2015-06-22"
+tamano_lote: 2
+umbral_clasificacion: 0.50
+carpeta_salida: data/predicciones

@@ -1,0 +1,13 @@
+seleccion: CUSTOM
+custom:
+- tendencia_7d_30d
+- ratio_produccion_mes_anterior
+- variabilidad_relativa
+- fraccion_ceros_30d
+- horas_media_30d
+- cambio_horas_7d_30d
+- corte_agua_30d
+- cambio_corte_agua_30d
+- ratio_presion_7d_30d
+- cambio_choke_7d_30d
+- pozo

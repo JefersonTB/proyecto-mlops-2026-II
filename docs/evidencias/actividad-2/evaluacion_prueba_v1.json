@@ -1,0 +1,29 @@
+{
+  "modelo": "volve-pozos-con-historial-30d",
+  "version": "1",
+  "pozos": [
+    "15/9-F-12",
+    "15/9-F-14"
+  ],
+  "fecha_inicio": "2015-07-23",
+  "fecha_fin": "2016-08-18",
+  "umbral_clasificacion": 0.5,
+  "metricas": {
+    "auc_prueba": 0.4995934959349594,
+    "average_precision_prueba": 0.3527743977096644,
+    "precision_prueba": 0.2508250825082508,
+    "recall_prueba": 0.4634146341463415,
+    "proporcion_caidas_prueba": 0.21052631578947367,
+    "n_ejemplos_prueba": 779
+  },
+  "matriz_confusion_filas_real_columnas_prediccion": [
+    [
+      388,
+      227
+    ],
+    [
+      88,
+      76
+    ]
+  ]
+}

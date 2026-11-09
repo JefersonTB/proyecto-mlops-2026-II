@@ -1,0 +1,4 @@
+﻿entrenamiento: entrenamiento-manual
+inferencia: inferencia-diaria
+cron: "0 8 * * *"
+zona_horaria: America/Bogota
