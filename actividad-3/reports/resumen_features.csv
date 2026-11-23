@@ -1,0 +1,4 @@
+batch_id,nivel,cantidad_con_drift,fraccion_con_drift,alerta,variables
+20261123T031642Z_b65896f9,0.0,0,0.0,False,ninguna
+20261123T031813Z_3bcbcd0c,0.3,2,0.5,True,"variance, entropy"
+20261123T031923Z_200f2f23,0.6,2,0.5,True,"variance, entropy"

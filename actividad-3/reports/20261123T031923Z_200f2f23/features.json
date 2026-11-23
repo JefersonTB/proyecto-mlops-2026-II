@@ -1,0 +1,29 @@
+{
+  "metodo": "Kolmogorov-Smirnov",
+  "p_umbral": 0.01,
+  "columnas": {
+    "variance": {
+      "p_valor": 1.1633741633948766e-43,
+      "drift": true
+    },
+    "skewness": {
+      "p_valor": 0.0675813896742831,
+      "drift": false
+    },
+    "curtosis": {
+      "p_valor": 0.05704044010502426,
+      "drift": false
+    },
+    "entropy": {
+      "p_valor": 1.8419279178424867e-102,
+      "drift": true
+    }
+  },
+  "cantidad_con_drift": 2,
+  "total_features": 4,
+  "fraccion_con_drift": 0.5,
+  "umbral_fraccion": 0.25,
+  "alerta": true,
+  "batch_id": "20261123T031923Z_200f2f23",
+  "nivel_drift": 0.6
+}

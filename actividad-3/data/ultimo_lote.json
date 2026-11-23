@@ -1,0 +1,15 @@
+{
+  "batch_id": "20261123T031923Z_200f2f23",
+  "ruta_lote": "data/batches/20261123T031923Z_200f2f23.csv",
+  "nivel_drift": 0.6,
+  "filas": 250,
+  "tasa_clase_1": 0.692,
+  "modelo": "banknote-random-forest",
+  "version_modelo": "1",
+  "run_id": "0b4ed902677f4065bdedad1c68b31cb3",
+  "metricas": {
+    "accuracy": 0.34,
+    "f1_class_1": 0.08839779005524862,
+    "roc_auc": 0.9349523309060881
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tasa_clase_1_referencia": 0.4528101802757158,
+  "tasa_clase_1_lote": 0.692,
+  "diferencia_absoluta": 0.23918981972428416,
+  "umbral": 0.15,
+  "alerta": true,
+  "filas_referencia": 943,
+  "filas_lote": 250,
+  "batch_id": "20261123T031923Z_200f2f23",
+  "nivel_drift": 0.6
+}

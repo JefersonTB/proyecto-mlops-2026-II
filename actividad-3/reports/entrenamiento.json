@@ -1,0 +1,11 @@
+{
+  "run_id": "088c7bf0ee9f4734a22f1818835d94fb",
+  "modelo": "banknote-random-forest",
+  "version": "1",
+  "alias": "champion",
+  "metricas": {
+    "accuracy": 0.9975308641975309,
+    "f1_class_1": 0.997275204359673,
+    "roc_auc": 1.0
+  }
+}

@@ -1,0 +1,31 @@
+datos:
+  entrenamiento: data/processed/train.csv
+  prueba: data/processed/test.csv
+  features:
+    - variance
+    - skewness
+    - curtosis
+    - entropy
+  target: class
+
+modelo:
+  nombre: banknote-random-forest
+  n_estimators: 150
+  max_depth: 8
+  min_samples_leaf: 2
+  random_state: 42
+
+mlflow:
+  tracking_uri: http://127.0.0.1:5000
+  experimento: banknote-actividad-3
+  alias: champion
+
+inferencia:
+  nivel_drift: 0.6
+  tamano_lote: 250
+  random_state: 42
+
+monitoreo:
+  p_valor_features: 0.01
+  umbral_fraccion_features: 0.25
+  umbral_diferencia_target: 0.15

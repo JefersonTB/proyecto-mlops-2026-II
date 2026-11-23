@@ -1,0 +1,39 @@
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "mlops-banknote"
+version = "0.1.0"
+description = "Clasificación de billetes con monitoreo de drift, MLflow, Prefect y API"
+requires-python = ">=3.12,<3.15"  # Prefect 3.8.8 no admite Python 3.15 o superior
+# Versiones fijadas para que cualquiera reproduzca el entorno (actividad 1, tarea 2).
+dependencies = [
+    "prefect==3.8.8",
+    "mlflow==3.17.0",
+    "scikit-learn==1.9.1",
+    "scipy==1.18.1",
+    "pandas==3.0.6",
+    "numpy==2.5.4",
+    "pyyaml==6.0.3",
+    "evidently==0.7.23",
+    "fastapi==0.143.0",
+    "uvicorn==0.54.0",
+]
+
+[tool.poetry]
+package-mode = true
+packages = [{ include = "domain" }, { include = "infraestructure" }, { include = "scripts" }]
+
+# Grupo de desarrollo: se instala por defecto con `poetry install`.
+# Para un entorno sin herramientas de desarrollo: `poetry install --without dev`.
+[tool.poetry.group.dev.dependencies]
+pytest = "9.1.1"
+httpx = "0.28.1"
+ipykernel = "7.4.0"
+nbconvert = "7.17.1"
+nbformat = "5.11.1"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
